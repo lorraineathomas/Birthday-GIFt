@@ -1,0 +1,153 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background: linear-gradient(#32a852, #95bea0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.elmo-pic {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  border: 12px solid #70b382;
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTk9ppnowrjGAbvlHgY3Ip8danaOHdOLmSqJlqOqpKNN3Ig7DJD");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.party {
+  display: flex;
+}
+
+.birthday-gift-one {
+  width: 518px;
+  height: 392px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border: 2px solid #70b382;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0KiqaUqIzWUZR3rstkt-VSZDAoqdxp7d_UxmoTi-2nvuJNjQh");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.birthday-gift-one:hover {
+  width: 500px;
+  height: 280px;
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmt6ZHdzbXJxeDZmYXpsZTdrNDQ3MzI3YWR3bmp3aGR4d3hlOWs0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Yu3CQVzP8oSOemmKqQ/giphy.gif");
+  transition: all 200ms ease-in-out;
+}
+
+.birthday-gift-two {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border: 2px solid #70b382;
+  background-image: url("https://sesameworkshop.org/wp-content/uploads/2023/05/2400x1800_SesameStreetCharacters.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.birthday-gift-two:hover {
+  width: 500px;
+  height: 377px;
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODAwaDJwbGE2d3lwNXlxamc2a3V6a2NteTczNmNrcWFrYTRpczNiciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKsK4q0Em9NQqfC/giphy.gif");
+  transition: all 200ms ease-in-out;
+}
+
+.birthday-gift-three {
+  width: 460px;
+  height: 309px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border: 2px solid #70b382;
+  background-image: url("https://www.parents.com/thmb/5EOXCQvPMA8-pyyy8uHIB35nwoE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5301_CommunityMural_RICHARDTERMINE-2000-1882a577cdcb43b49aa38a7273cff858.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.birthday-gift-three:hover {
+  width: 500px;
+  height: 375px;
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3o1ZG13NnZibHVlNmNsbmZiajVmMHVqb3AzNTMwcjAzb3EyZmYyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lDo5iaCb7TNTi/giphy.gif");
+  transition: all 200ms ease-in-out;
+}
+
+.birthday-gift-four {
+  width: 331px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border: 2px solid #70b382;
+  background-image: url("https://i.ebayimg.com/images/g/M9cAAOSwStdkJbcx/s-l400.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.birthday-gift-four:hover {
+  width: 460px;
+  height: 345px;
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2dncjd1anVnZGV4cXlidmFuMWN5ZnR3Ym1qM3JoNzVhczZpeWQ1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kyLYXonQYYfwYDIeZl/giphy.gif");
+  transition: all 200ms ease-in-out;
+}
+
+h1,
+h2,
+h4 {
+  text-shadow: 1px 1px 1px #db4a4a;
+}
+
+h2,
+h4 {
+  background: #db4a4a;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+table,
+td,
+tr {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table {
+  width: 500px;
+}
